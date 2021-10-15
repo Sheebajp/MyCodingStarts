@@ -1,0 +1,15 @@
+
+//String Reverse:
+class ReverseStringBuilder {
+  public static void main(String[] args) {
+    
+    System.out.println("Hello Codiva");
+    
+    String s1= "Sheeba";
+    StringBuilder sb = new StringBuilder();
+    sb.append(s1);
+    sb.reverse();
+    System.out.println("Reversed String of "+s1+" is "+sb);
+    
+  }
+}
